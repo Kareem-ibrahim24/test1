@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.home{
+    background-color:rgb(38, 215, 91);
+    overflow: hidden;
+}
+
+.home .nav ul li{
+    list-style-type: none;
+    float: right;
+    padding: 20px;
+}
+
+
+.home .nav ul a{
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+    transition:  all 1s;
+}
+
+.caption img{
+
+    width: 50px;
+    height: 100px;
+}
+
+.home .nav ul a:hover{
+    background-color: red;
+    border-radius: 20px;
+    color: wheat;
+}
